@@ -209,11 +209,12 @@ input[type="password"]::-webkit-input-placeholder{
 
 .social-text {
     margin: 10px 0;
-    font-size: 16px;
+    font-size: 20px;
     color: #fff;
     font-weight: 600;
-    text-shadow: 3px 3px 2px black;
+    text-shadow: 2px 2px 3px rgb(0, 0, 2);
 }
+
 
 .social-media {
     display: flex;
@@ -229,7 +230,7 @@ input[type="password"]::-webkit-input-placeholder{
     color: #fff;
     border: 2px solid #fff;
     border-radius: 50px;
-    margin: 0 5px;
+    margin: 0 8px;
 }
 
 a {
@@ -238,8 +239,10 @@ a {
 
 .social-icon:hover {
     color: #2f819e;
-    border-color: #df4adf;
+    border-color: none;
     background-color: #fff;
+    transform: scale(1.2);
+    /* gap: 10px; */
 }
 
 .panels-container {
